@@ -37,14 +37,18 @@ h3 {
 
 .socials a {
     margin-right: 15px;
+    padding-left: 15px;
+    text-shadow: 2px 2px 4px black;
 }
 
 .links {
     transition: fill 0.4s;
+    text-shadow: 2px 2px 4px black;
 }
 
 .links:hover {
     fill: #8788a7;
+    text-shadow: 2px 2px 4px black;
 }
 
 #place_holder {
