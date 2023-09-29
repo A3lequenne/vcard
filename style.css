@@ -1,7 +1,54 @@
-body {
-
+html, body {
+    font-size: 20px;
+    font-family: 'Alumni Sans Pinstripe';
+    background-color: darkgray;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
-    
+    width: 25em;
+    height: 15em;
+    background: linear-gradient(to right, #1F1B29, #3A578F);
+    border-radius: 25px;
+    display: flex;
+}
+
+.container_flex {
+    display: flex;
+    width: 100%;
+}
+
+.profile {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.coordinates {
+    width: 60%;
+    text-align: center;
+}
+
+.socials {
+    display: block;
+}
+
+.socials:hover {
+    color:aliceblue;
+}
+
+.name {
+    padding-top: ;
+}
+
+#place_holder {
+    width: 70%;
+    border-radius: 70px;
+    align-self: center;
+    margin-bottom: -20px;
 }
