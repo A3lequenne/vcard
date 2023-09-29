@@ -36,10 +36,12 @@ html, body {
 
 .socials {
     display: block;
+    color: black;
+    transition: 0.2s;
 }
 
-.socials:hover {
-    color:aliceblue;
+.socials, svg:hover {
+    color: aliceblue;
 }
 
 .name {
