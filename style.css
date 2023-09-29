@@ -16,7 +16,7 @@ html, body {
     display: flex;
 }
 
-.container_flex {
+.left_top {
     display: flex;
     width: 100%;
 }
@@ -29,23 +29,20 @@ html, body {
     justify-content: space-evenly;
 }
 
-.coordinates {
-    width: 60%;
-    text-align: center;
+h3 {
+    margin-bottom: 1px;
 }
 
-.socials {
-    display: block;
-    color: black;
-    transition: 0.2s;
+.socials a {
+    margin-right: 15px;
 }
 
-.socials, svg:hover {
-    color: aliceblue;
+.links {
+    transition: fill 0.4s;
 }
 
-.name {
-    padding-top: ;
+.links:hover {
+    fill: aliceblue;
 }
 
 #place_holder {
@@ -53,4 +50,23 @@ html, body {
     border-radius: 70px;
     align-self: center;
     margin-bottom: -20px;
+}
+
+.right_bottom {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.occupation {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.coordinate {
+    font-size: 16px;
+    margin-top: -20px;
 }
