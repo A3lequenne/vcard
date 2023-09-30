@@ -17,6 +17,7 @@ html, body {
     background: linear-gradient(to right, #1F1B29, #3A578F);
     border-radius: 25px;
     display: flex;
+    box-shadow: 4px 4px 8px black;
 }
 
 .profile {
