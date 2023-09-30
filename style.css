@@ -5,6 +5,7 @@ html, body {
     background-color: darkgray;
     display: flex;
     height: 100vh;
+    margin: 0;
     align-items: center;
     justify-content: center;
     text-shadow: 2px 2px 4px black;
@@ -18,12 +19,12 @@ html, body {
     display: flex;
 }
 
-.left_top {
+.profile {
     display: flex;
     width: 100%;
 }
 
-.profile {
+.left_top {
     width: 40%;
     text-align: center;
     display: flex;
@@ -78,6 +79,49 @@ h3 {
     margin-bottom: 35px;
 }
 
-@media {
+@media (max-width: 504px), (max-height: 302px){
+    body {
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    .container {
+        width: 260px;
+        height: auto;
+    }
+
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .socials {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .left_top {
+        padding: 5px;
+        margin-top: -7px;
+    }
+
+    #place_holder {
+        width: 80%;
+        margin-bottom: -10px;
+    }
+
+    .right_bottom {
+        margin-right: 0px;
+        margin-top: -5px;
+    }
+
+    .occupation {
+        margin-top: 20px;
+    }
+
+    .coordinate {
+        margin-top: 20px;
+    }
 }
