@@ -18,6 +18,7 @@ html, body {
     border-radius: 25px;
     display: flex;
     box-shadow: 4px 4px 8px black;
+    perspective: 1000px;
 }
 
 .profile {
